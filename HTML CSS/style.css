@@ -1,0 +1,229 @@
+ #nom{
+    text-align: right;
+}
+#prenom{
+    float: left;
+}
+#formation{
+    text-align: left;
+}
+#imgcherif{
+    float: right;
+    height: 200px;
+    padding: 50px;
+    margin: 
+
+}
+#formation {
+   
+    float : left;
+    width: 50%;
+  }
+
+  #stage {
+   
+    float : right;
+    width: 50%
+
+  }
+
+  #tout {
+
+    padding-top: 50px;
+    padding-right: 30px; 
+    padding-left: 80px;
+    border-radius: 50px;
+    
+
+   }
+
+ .clear {
+     clear: both; 
+ }  
+
+ td, th {
+    border: 2px solid lightblue;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  tr:nth-child(even) {
+    background-color:lightblue;
+    text-align: center;
+  }
+  #competence{
+      text-align: center;
+  }
+#competence2{
+
+    padding-top: 50px;
+    padding-right: 30px; 
+    padding-left: 80px;
+    border-radius: 50px;
+
+}
+#numerique{
+    float:right;
+    width: 50%;
+}
+#tech{
+    float: left;
+    width: 50%;
+}
+#all{
+    text-align: center;
+    width: 1000px;
+    margin: 0px auto;
+    background: rgba(242,246,248,1);
+    
+
+}
+ul{
+    display: inline-block;
+}
+#langue{
+
+    padding-top: 50px;
+    padding-right: 30px; 
+    padding-left: 80px;
+
+
+
+}
+
+
+/* Add some padding on document's body to prevent the content
+to go underneath the header and footer */
+body{ 
+    padding-top: 60px;
+    padding-bottom: 40px;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(58,175,169,1) 0%, rgba(58,175,169,1) 28%, rgba(222,242,241,1) 100%)
+    
+}
+.container{
+    width: 80%;
+    margin: 0 auto; /* Center the DIV horizontally */
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;        
+    background: -webkit-linear-gradient(-45deg, rgba(33,180,226,1) 0%, rgba(23,37,42,1) 0%, rgba(43,122,120,1) 100%);
+    padding: 1px 0;
+    color: #fff;
+}
+.fixed-header{
+    top: 0;
+}
+.fixed-footer{
+    bottom: 0;
+}    
+/* Some more styles to beutify this example */
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 25px 40px;
+    display: inline-block;
+}
+.container p{
+    line-height: 200px; /* Create scrollbar to test positioning */
+}
+
+.cvc{
+    border: 10px solid #defdf1;
+    background-color:#def2f1;
+    padding-top: 50px;
+    padding-right: 30px; 
+    padding-left: 80px;
+
+    
+}
+
+.tabcenter{
+    margin:auto;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+ body {
+  font-family: Arial, Helvetica, sans-serif;}
+
+
+  * {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.nomm{
+    color: blue;
+    size: 14px;
+}
+
+
+
+.box{
+    height: 1000px;
+    width: 800px;
+    background-color: blue;
+
+
+}
+.sub-box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    
+
+
+}
+.flex-container {
+    display: flex;
+    justify-content: end;
+  }
